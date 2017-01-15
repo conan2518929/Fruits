@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#5497f3">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="选择编辑模板"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_apple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp"
+        >
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/apple" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="苹果模板"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_xiangjiao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp"
+        >
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/banana" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="香蕉模板"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_xigua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp"
+        >
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/xigua" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="西瓜模板"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>
